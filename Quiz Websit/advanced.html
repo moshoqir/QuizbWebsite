@@ -98,7 +98,7 @@
         
         // Check if the response contains valid video details
         if (data.items && data.items.length > 0) {
-          const videoDetails = data.items[0].snippet;
+          const videoDetails = data.items[0];
 
           // Extract the video URL and set it in iframe
           const videoFrame = document.getElementById('video-frame');
