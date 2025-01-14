@@ -128,18 +128,18 @@
     <script>
       let btnLogout = document.getElementById("btnLogout");
       btnLogout.onclick = function () {
-        window.location.href = "/LoginPage.html";
+        window.location.href = "LoginPage.html";
         window.sessionStorage.clear();
       };
 
       function goToMenu(obj, contQuestion) {
-        window.location.href = "/Homepage.html";
+        window.location.href = "Homepage.html";
         sessionStorage.setItem("level", contQuestion);
       }
       let checked = window.sessionStorage.getItem("checkedOpenLogin");
 
       if (!checked) {
-        window.location.href = "/LoginPage.html";
+        window.location.href = "LoginPage.html";
       }
     </script>
 

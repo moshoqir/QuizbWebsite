@@ -59,7 +59,7 @@ function login(obj) {
 
       sessionStorage.setItem("checkedOpenLogin", "true");
 
-      window.location.href = "/contentLogin.html";
+      window.location.href = "contentLogin.html";
       // window.open("homePage.html", "_blank");
     } else {
       errorMessage.textContent = "The Email Not Found!";

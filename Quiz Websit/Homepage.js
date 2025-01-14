@@ -44,9 +44,8 @@ if (contQuestion == 0) {
   level.innerHTML = "Advanced Exam";
 }
 
-
 let checked = window.sessionStorage.getItem("checkedOpenLogin");
 
 if (!checked) {
-  window.location.href = "/LoginPage.html";
+  window.location.href = "LoginPage.html";
 }
